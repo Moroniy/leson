@@ -1,0 +1,7 @@
+{
+    "editor.fontSize": 15,
+    "editor.renderWhitespace": "boundary",
+    "editor.lineHeight": 23,
+    "editor.tabSize": 2,
+    "editor.linkedEditing": true
+}
