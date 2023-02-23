@@ -10,6 +10,7 @@
   background-color: #f1efef;
   width: 970px;
   margin: 0 auto;
+  text-align: center;
 
 }
 .header li {
@@ -23,9 +24,7 @@
   line-height: 65px;
 }
 .about-me {
-  display: flex;
-  padding: 100px 480px;
-  gap: 50px;
+  display: flex; 
   text-align: center;
 }
 .about p {
