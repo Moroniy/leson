@@ -1,0 +1,42 @@
+.body{
+  background-color: aquamarine;
+  width: 1440px;
+  margin: 0 auto;
+}
+.main {
+  background-color: #2b0808;
+  width: 970px;
+  margin: 0 auto;
+}
+.header li {
+  display: inline; 
+}
+.first-screen h1 {
+  font-family: 'Open Sans';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 48px;
+  line-height: 65px;
+}
+.about-me {
+  display: flex;
+  padding: 100px 480px;
+  gap: 50px;
+  text-align: center;
+}
+.about p {
+  font-family: 'Open Sans';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 25px;
+  text-align: center;
+}
+.about> li{
+  text-align: center;
+}
+.pages-store {
+  width: 970px;
+  margin: 0 auto;
+}
+

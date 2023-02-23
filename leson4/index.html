@@ -1,0 +1,154 @@
+  <!DOCTYPE html>
+  <html dir="ltr" lang="ua" >
+  <head>
+      <meta charset="UTF-8">
+            <meta http-equiv="X-UA-Compatible" content="IE=edge">
+            <meta name="viewport" content="width=device-width, initial-scale=1.0">
+            <link rel="stylesheet" href="style.css">
+            <title>Document</title>
+          </head>
+          <body>
+            <section class="intro">
+              <div class="container">
+                <h1 id="1">HTML5 Семантичні елементи</h1>
+                <p>Семантичний елемент чітко описує його значення як для браузера, так і для розробника.</p>
+               <p>Приклади не <b>семантичних</b> елементів: &lt;div&gt;  і &lt;span&gt; - нічого не говорить
+                  про його вміст.
+                </p>
+                <p>Приклади <b>семантичних</b> елементів: &lt;form&gt;, &lt;table&gt; і &lt;article&gt;- чітко
+                    визначає його зміст.</p>
+
+                <section class="body">
+                  <header >
+                    <section>
+                        <nav>
+                          <h2>Підтримка браузерів</h2>
+                              <img width="60" height="60" src="image/chrome_icon.png " alt="chrome">
+                              <img width="60" height="60" src="image/ie_icon.png " alt="internet-explorera">
+                              <img width="60" height="60" src="image/firefox_icon.png " alt="mozilla">
+                              <img width="60" height="60" src="image/safari_icon.png" alt="safari">
+                              <img width="60" height="60" src="image/opera_icon.png" alt="opera">
+                               <p>Семантичні елементи HTML5 підтримуються у всіх сучасних браузерах.</p>
+                             <p>Крім того, ви можете "навчити" старих браузерів, як обробляти "невідомі елементи".</p>
+                            <p>Прочитайте про це в <a href="https://www.blogger.com/onboarding">підтримці браузера</a>.</p>
+                         </nav>
+                    </section>
+                  </header>
+                <main>
+                  <header>
+                    <section>
+                        <h2><a id="2">Нові семинтичні елементи в HTML5</a> </h2>
+                    </section>
+                  </header>
+                  <section>
+                    <p>HTML5 пропонує нові семантичні елементи для визначення різних частин веб-сторінки:</p>
+                    <nav>
+                      <ul>
+                         <li><a href="#section">&lt;section&gt;</a></li>
+                         <li><a href="#article">&lt;article&gt;</a></li>
+                         <li><a href="#header">&lt;header&gt;</a></li>
+                         <li><a href="#footer">&lt;footer&gt;</a></li>         
+                       </ul>
+                    </nav>
+                  </section>
+                  <section>       
+                    <h2><a id="3">HTML5 &lt;section&gt; елемент</a> </h2>
+                      <p>Елемент &lt;section&gt; визначає розділ в документі.</p>
+                      <p>Згідно з документацією  HTML5: "розділ представляє собою  тематичну угруповання контенту, зазвичай з заголовком".</p>
+                      <p>Домашня сторінка зазвичай може бути розділена на розділи для ознайомлення, змісту і контактної інформації. </p>
+                  </section>
+                  <section>
+                      <h4>Приклад</h4>
+                      <pre class="example">
+                        <code>
+                          &lt;section&gt;              
+                               &lt;h1&gt;WWF&lt;&gt;
+                                &lt;p&gt;The World Wid Fund for Nature (WWF) is ...&lt;p&gt; 
+                          &lt;/section&gt;
+                        </code>
+                      </pre>
+                  </section>
+                  <header>
+                      <h2><a id="4">HTML5 &lt;article&gt; елемент</a> </h2>
+                  </header>
+                        <p>Елемент &lt;article&gt; визначає незалежний, автономний вміст.</p>
+                           Стаття повинна мати сенс самостійно, і вона повинна мати можливість
+                           читати його незалежно від іншої частини веб-сайту.
+                        </p>
+                        <p>Приклади того, де можна використовувати елемент &lt;article&gt; :</p>
+                      <ul>
+                        <li>Повідомлення на форумі</li>
+                        <li>блозі</li>
+                        <li>Газетна стаття</li>
+                      </ul>
+                      <section>
+                        <h4>Приклад</h4> 
+                        <pre class="example">
+                           <code>
+                           &lt;article&gt;
+                                &lt;h1&gt;What Does WWF Do?&lt;&gt;
+                                 &lt;p&gt;WWF`s mission is to stop the dagradation of our planet`s natural enviroment,
+                                 and build a future in wich humans live in harmony with nature.&lt;p&gt;                    
+                           &lt;/article&gt;
+                         </code>
+                       </pre>
+                      </section>
+                  <section>
+                    <header>
+                       <h2> <a id="5">HTML5 &lt;header&gt; елемент</a> </h2>
+                    </header>
+                       <p>Елемент &lt;header&gt;задає заголовок для документа або розділу.
+                      </p>
+                      <p>В одному документі може бути кілька елементів &lt;header&gt;v.</p>
+                      <p>У наступному прикладі визначається заголовок для статті:
+                      </p>
+                  </section>
+                    <section>
+                       <h4>Приклад</h4>
+                       <pre class="example">
+                          <code>
+                          &lt;article&gt;
+                           &lt;header&gt;
+                               &lt;h1&gt;Loren Ipsum&lt;&gt;
+                                &lt;p&gt;Lorem ipsum dolor sit amet, consectetur adipisicing elit.&lt;p&gt; 
+                            &lt;/header&gt;
+                                &lt;p&gt;Lorem ipsum dolor sit amet, consectetur adipisicing elit.&lt;p&gt; 
+                          &lt;/article&gt;
+                        </code>
+                      </pre>
+                    </section>
+                  <section>
+                    <h2><a id="6">HTML5&lt;footer&gt; елемент</a></h2>
+                       <p>Елемент &lt;footer&gt; вказує нижній колонтитул для документа або розділу.</p>
+                       <p>Нижній колонтитул зазвичай містить автора документа, інформацію про авторське право, посилання на умови використання, контактні дані і т.д.</p>
+                       <p>В одному документі може бути кілька елементів &lt;footer&gt;.</p>
+                  </section>
+                  <section>
+                    <h4>Приклад</h4>
+                    <pre class="example">
+                       <code>
+                       <span>&lt;article&gt;</span> 
+                          &lt;header&gt;                   
+                            &lt;h1&gt;What Does WWF Do?&lt;&gt;
+                             &lt;p&gt;WWF`s mission is to stop the dagradation of our planet`s natural enviroment,
+                             and build a future in wich humans live in harmony with nature.&lt;p&gt;
+                          &lt;/header&gt;                    
+                        &lt;/article&gt;
+                      </code>
+                   </pre>
+                  </section>            
+                </main>
+               <footer>
+                 <p><a href="https://github.com/Moroniy">Author: Serhii Liaskovskyi</a></p>                   
+                   <iframe src="https://github.com/Moroniy" title="Author: Serhii Liaskovskyi"></iframe>
+                   <br>              
+               </footer>
+              <video src="vidio/Miss You Love.mp4" poster="image/03-3-1.png" controls loop></video>
+              
+              <p><a href="#">BeetRoot Academy</a></p>
+            </video>
+          </section>
+         </div>
+       </section>     
+     </body>
+   </html>
