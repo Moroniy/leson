@@ -4,9 +4,13 @@
   margin: 0 auto;
 }
 .main {
-  background-color: #2b0808;
+  text-align: center;
+}
+.main {
+  background-color: #f1efef;
   width: 970px;
   margin: 0 auto;
+
 }
 .header li {
   display: inline; 
