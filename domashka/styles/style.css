@@ -1,0 +1,148 @@
+
+.body {
+  background-color: aquamarine;
+  width: 1440px;
+  margin: 0 auto;
+}
+.main {
+  background-color: #f1efef;
+  width: 970px;
+  margin: 0 auto;
+  text-align: center;
+
+}
+h3 {
+  text-align: center;
+}
+.header li {
+  display: inline;
+  text-align: center; 
+}
+.first-screen h1 {
+  text-align: left;
+  font-family: 'Open Sans';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 48px;
+  line-height: 65px;
+}
+.about-me {
+  display: flex; 
+  text-align: center;
+}
+.about p {
+  font-family: 'Open Sans';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 25px;
+  text-align: center;
+}
+.about li{
+  text-align: center;
+}
+.pages-store {
+  margin: 150px -40px;
+  width: 970px;
+ 
+}
+.footer {
+  display: flex;
+  text-indent: 130px;
+}
+.icon {
+  display: flex;
+  text-align: center;
+  text-indent: 115px;
+  margin-top: 10px;
+  margin-bottom: 200px;
+}
+.button {
+ width: 180px;
+ height: 44px;
+ background: #070707;
+ border-radius: 22px;
+ font-family: 'Open Sans';
+ font-style: normal;
+ font-weight: 700;
+ font-size: 18px;
+ line-height: 1.1;
+ color: #ffffff;
+ margin: 30px;
+}
+.contacts {
+ font-family: Open Sans;
+ font-size: 34px;
+ font-weight: 700;
+ line-height: 46px;
+ letter-spacing: 0em;
+ text-align: center;
+ color: #070707;
+
+}
+.portfolio {
+  font-family: Open Sans;
+  font-size: 34px;
+  font-weight: 700;
+  line-height: 46px;
+  letter-spacing: 0em;
+  text-align: center;
+  color: #070707;
+  margin-top: 5px;
+  margin-bottom: 20px;
+}
+.skills {
+  font-family: Open Sans;
+  font-size: 34px;
+  font-weight: 700;
+  line-height: 46px;
+  letter-spacing: 0em;
+  text-align: center;
+  color: #070707;
+}
+.skip{
+ font-family: Open Sans;
+ font-size: 18px;
+ font-weight: 400;
+ line-height: 25px;
+ letter-spacing: 0em;
+ text-align: center;
+ color: #070707;
+ margin-top: -30px;
+ margin-bottom: 30px;
+
+}
+.abm {
+ font-family: Open Sans;
+ font-size: 34px;
+ font-weight: 700;
+ line-height: 46px;
+ letter-spacing: 0em;
+ text-align: center;
+ color: #070707;
+
+}
+.abm p {
+ font-family: Open Sans;
+ font-size: 18px;
+ font-weight: 400;
+ line-height: 25px;
+ letter-spacing: 0em;
+ text-align: center;
+ color: #070707;
+
+}
+.denis {
+  font-family: Open Sans;
+  font-size: 48px;
+  font-weight: 700;
+  line-height: 65px;
+  letter-spacing: 0em;
+  text-align: left;
+  color: #070707;
+  
+}
+.reebok-store {
+margin-bottom: 70px;
+}
+
