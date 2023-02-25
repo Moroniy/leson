@@ -1,34 +1,96 @@
+@import: "./styles/reset.css";
+@import url('https://fonts.googleapis.com/css2?family=Caveat&display=swap');
 
-.body {
-  background-color: aquamarine;
-  width: 1440px;
+* {
+  box-sizing: border-box;
+}
+
+font {
+  font-family: 'Open Sans', sans-serif;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 25px;
+  color: #070707;
+}
+
+h1 {
+  font-weight: 700;
+  font-size: 48px;
+  color: #070707;  
+}
+
+body {
+
+  background-color: #ffffff;
   margin: 0 auto;
 }
-.main {
+
+main {
   background-color: #f1efef;
   width: 970px;
   margin: 0 auto;
   text-align: center;
 }
-h3 {
+
+h2 {
   text-align: center;
 }
-.header li {
-  display: inline;
-  text-align: center; 
+
+.header {
+  background-color: #f1efef width: 970px;
+  margin: 0 auto;
+  text-align: center;
+
 }
+
+.wrapper {
+  max-width: 970px;
+  margin: 0 auto;
+}
+
+.header-nav {
+  border-bottom: 1px solid #828282;
+}
+
+.header-nav ul {
+  display: flex;
+  justify-content: center;
+}
+
+.header-nav ul li: not(:last-of-type) {}
+
+.header-nav {
+  text-decoration: unset;
+}
+
+.head li {
+  display: inline;
+  margin-top: 27, 5px;
+  justify-content: space-between;
+  align-items: center;
+  font-family: 'Open Sans';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  text-decoration: none;
+  color: #828282;
+}
+
 .first-screen h1 {
-  text-align: left;
+  background-color: #f1efef text-align: left;
   font-family: 'Open Sans';
   font-style: normal;
   font-weight: 700;
   font-size: 48px;
   line-height: 65px;
 }
+
 .about-me {
-  display: flex; 
+  background: #F6F6F6;
+  display: flex;
   text-align: center;
 }
+
 .about p {
   font-family: 'Open Sans';
   font-style: normal;
@@ -37,18 +99,32 @@ h3 {
   line-height: 25px;
   text-align: center;
 }
-.about li{
+
+.about li {
   text-align: center;
 }
+
 .pages-store {
   margin: 150px -40px;
   width: 970px;
- 
+
 }
+
+.product-list p {
+  text-align: center;
+}
+
+.pps {
+  text-align: center;
+}
+
 .footer {
   display: flex;
-  text-indent: 130px;
+  justify-content: center;
+  align-items: center;
+
 }
+
 .icon {
   display: flex;
   text-align: center;
@@ -56,29 +132,33 @@ h3 {
   margin-top: 10px;
   margin-bottom: 200px;
 }
+
 .button {
- width: 180px;
- height: 44px;
- background: #070707;
- border-radius: 22px;
- font-family: 'Open Sans';
- font-style: normal;
- font-weight: 700;
- font-size: 18px;
- line-height: 1.1;
- color: #ffffff;
- margin: 30px;
+  width: 180px;
+  height: 44px;
+  background: #070707;
+  border-radius: 22px;
+  font-family: 'Open Sans';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 1.1;
+  color: #ffffff;
+  margin: 30px;
+  cursor: pointer;
 }
+
 .contacts {
- font-family: Open Sans;
- font-size: 34px;
- font-weight: 700;
- line-height: 46px;
- letter-spacing: 0em;
- text-align: center;
- color: #070707;
+  font-family: Open Sans;
+  font-size: 34px;
+  font-weight: 700;
+  line-height: 46px;
+  letter-spacing: 0em;
+  text-align: center;
+  color: #070707;
 
 }
+
 .portfolio {
   font-family: Open Sans;
   font-size: 34px;
@@ -90,6 +170,7 @@ h3 {
   margin-top: 5px;
   margin-bottom: 20px;
 }
+
 .skills {
   font-family: Open Sans;
   font-size: 34px;
@@ -99,38 +180,42 @@ h3 {
   text-align: center;
   color: #070707;
 }
-.skip{
- font-family: Open Sans;
- font-size: 18px;
- font-weight: 400;
- line-height: 25px;
- letter-spacing: 0em;
- text-align: center;
- color: #070707;
- margin-top: -30px;
- margin-bottom: 30px;
+
+.skip {
+  font-family: Open Sans;
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 25px;
+  letter-spacing: 0em;
+  text-align: center;
+  color: #070707;
+  margin-top: -30px;
+  margin-bottom: 30px;
 
 }
+
 .abm {
- font-family: Open Sans;
- font-size: 34px;
- font-weight: 700;
- line-height: 46px;
- letter-spacing: 0em;
- text-align: center;
- color: #070707;
+  font-family: Open Sans;
+  font-size: 34px;
+  font-weight: 700;
+  line-height: 46px;
+  letter-spacing: 0em;
+  text-align: center;
+  color: #070707;
 
 }
+
 .abm p {
- font-family: Open Sans;
- font-size: 18px;
- font-weight: 400;
- line-height: 25px;
- letter-spacing: 0em;
- text-align: center;
- color: #070707;
+  font-family: Open Sans;
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 25px;
+  letter-spacing: 0em;
+  text-align: center;
+  color: #070707;
 
 }
+
 .denis {
   font-family: Open Sans;
   font-size: 48px;
@@ -139,9 +224,9 @@ h3 {
   letter-spacing: 0em;
   text-align: left;
   color: #070707;
-  
-}
-.reebok-store {
-margin-bottom: 70px;
+
 }
 
+.reebok-store {
+  margin-bottom: 70px;
+}
