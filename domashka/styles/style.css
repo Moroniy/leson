@@ -2,7 +2,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Caveat&display=swap');
 
 * {
-
   box-sizing: border-box;
 }
 
@@ -18,7 +17,7 @@ h1 {
   background-color: #ffffff;
   font-weight: 700;
   font-size: 48px;
-  color: #070707;  
+  color: #070707;
 }
 
 body {
@@ -28,7 +27,7 @@ body {
 }
 
 main {
- 
+
   width: 970px;
   margin: 0 auto;
   text-align: center;
@@ -40,18 +39,19 @@ h2 {
   color: #070707;
   text-align: center;
 }
-a. a.active {
-  color: #070707;
-} 
-p. a {
-  line-height: 27,55px;
+
+::marker {
+  color: #ffffff;
 }
+
+a .active {
+  color: #070707;
+}
+
 .header {
-  background-color: #f1efef;
   width: 970px;
   margin: 0 auto;
   text-align: center;
-
 }
 
 .wrapper {
@@ -60,38 +60,25 @@ p. a {
   margin: 0 auto;
 }
 
-.header-nav {
-  border-bottom: 1px solid #828282;
-}
-
 .header-nav ul {
   display: flex;
   justify-content: center;
+  flex-direction: row;
+  align-items: flex-start;
+  padding: 0px;
+  gap: 40px;
+  padding-bottom: 30px;
+  border-bottom: 1px solid #828282;
+
 }
 
-.header-nav ul li:: not(:last-of-type) {
-
+.header-nav ul:hover {
+  color: #070707;
 }
 
-.header-nav {
-  text-decoration: unset;
-}
-
-.head li {
-  display: inline;
-  margin-top: 27, 5px;
-  justify-content: space-between;
-  align-items: center;
-  font-family: 'Open Sans';
-  font-style: normal;
-  font-weight: 400;
-  font-size: 18px;
-  text-decoration: unset;
-  color: #F6F6F6;
-}
+.header-nav ul li: not(:last-of-type) {}
 
 .first-screen h1 {
-
   text-align: left;
   font-family: 'Open Sans';
   font-style: normal;
@@ -100,18 +87,23 @@ p. a {
   line-height: 65px;
 
 }
+
 .first-screen {
   background-color: #ffffff;
   margin-bottom: 30px;
 }
+
 .about-me {
   background: #F6F6F6;
   display: flex;
   text-align: center;
+
 }
+
 .about {
   background-color: #F6F6F6;
 }
+
 .about p {
   font-family: 'Open Sans';
   font-style: normal;
@@ -142,16 +134,30 @@ p. a {
 .footer {
   display: flex;
   justify-content: center;
-  align-items: center;
+  flex-direction: row;
+  align-items: flex-start;
+  padding: 0px;
+  gap: 50px;
 
 }
 
 .icon {
   display: flex;
   text-align: center;
- 
+
   margin-top: 10px;
   margin-bottom: 200px;
+}
+
+.pages a {
+  line-height: 25px;
+  text-align: center;
+  text-decoration-line: underline;
+  color: #070707;
+}
+
+.pages a:hover {
+  color: #828282;
 }
 
 .button {
@@ -168,9 +174,10 @@ p. a {
   margin: 30px;
   cursor: pointer;
 }
+
 .button:hover {
   background: #ffffff;
-  color: #070707;    
+  color: #070707;
 }
 
 .contacts {
@@ -192,13 +199,15 @@ p. a {
   letter-spacing: 0em;
   text-align: center;
   color: #070707;
-  margin-top: 5px;
-  margin-bottom: 20px;
+  margin-top: 0px;
+  margin-bottom: 0px;
 }
+
 .product {
   background-color: #ffffff;
   text-align: justify;
 }
+
 .skills {
   background-color: #ffffff;
   font-family: Open Sans;
@@ -209,11 +218,12 @@ p. a {
   text-align: center;
   color: #070707;
 }
+
 .product-list {
   background-color: #ffffff;
-  letter-spacing: 30px;
+  letter-spacing: 40px;
   text-align: center;
-    
+
 }
 
 .skip {
@@ -226,7 +236,7 @@ p. a {
   text-align: center;
   color: #070707;
   margin-top: -30px;
-  margin-bottom: 30px;
+  margin-bottom: 50px;
 
 }
 
@@ -265,4 +275,18 @@ p. a {
 
 .reebok-store {
   margin-bottom: 70px;
+}
+
+.figma-img {
+  margin-bottom: 20px;
+}
+
+.footer-end {
+  font-family: 'Open Sans';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 19px;
+  text-align: center;
+  color: #828282;
 }
