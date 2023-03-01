@@ -7,8 +7,11 @@
 
 html,
 body {
-  width: 793px;
-  height: 507px;
+ width: 98%;
+ height: 98%;
+
+
+ 
 }
 
 body {
@@ -43,6 +46,20 @@ body {
   line-height: 19px;
 }
 
+.shopping-footer {
+  
+    display: flex;
+    justify-content: center;
+    margin: 0 auto;
+    max-width: 500px;
+    text-align: center;
+    background: #4A4F56;
+    padding: 20px;
+    color: #FF8984;
+   }
+
+
+
 .shopping-footer h2 {
   font-family: 'Roboto';
   font-style: normal;
@@ -50,17 +67,16 @@ body {
   font-size: 18px;
   line-height: 21px;
 }
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
 
-.shopping-footer {
-
-  margin: 0 auto;
-  max-width: 500px;
-  text-align: center;
-  background: #4A4F56;
-  padding: 20px;
-  color: #FF8984;
-
-}
 
 .shoping-conteiner {
   margin: 0 auto;
