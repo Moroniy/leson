@@ -1,0 +1,98 @@
+@import "./reset.css";
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
+
+* {
+  transition: all 0.1s ease-in;
+}
+
+html,
+body {
+  width: 793px;
+  height: 507px;
+}
+
+body {
+  font-family: "Roboto" sans-serif;
+  border: 20px solid #fff;
+  background: #3B3F45;
+  color: #ffffff;
+  margin: 0 auto;
+}
+
+.shopping-header
+{
+  text-align: center;
+  background: #4A4F56;
+  padding: 20px;
+  color: #FF8984;
+}
+
+.shopping-header h1 {
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 28px;
+}
+
+.shopping-header h3 {
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 19px;
+}
+
+.shopping-footer h2 {
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 21px;
+}
+
+.shopping-footer {
+
+  margin: 0 auto;
+  max-width: 500px;
+  text-align: center;
+  background: #4A4F56;
+  padding: 20px;
+  color: #FF8984;
+
+}
+
+.shoping-conteiner {
+  margin: 0 auto;
+  margin-top: 50px;
+  max-width: 534px;
+  padding-inline-start: 40px 20px;
+
+}
+
+.shoping-list {
+  margin: 0 0 45px;
+}
+
+.shoping-list li {
+  background: #88839E;
+  border: 0 solid #fff;
+}
+
+.shoping-list li:mth-child(even) {
+  background: #7a7593;
+}
+
+.shoping-list li:hover {
+  background: #625e77;
+  border-width: 1px 0;
+}
+
+.shoping-list li:active {
+  background: #f17d7f;
+}
+
+.shoping-list [type="checkbox"]:checked+span {
+  text-decoration: line-through;
+  color: #a3a0b9;
+}

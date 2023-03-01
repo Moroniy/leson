@@ -34,6 +34,15 @@
     display: flex;
   }
 
+  .nav-item {
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 28px;
+    color: #2F281E;
+  }
+
   .header {
     display: flex;
     justify-content: start;
@@ -41,7 +50,6 @@
     align-items: center;
     padding: 0;
     gap: 198px;
-
   }
 
   .nav-list {
@@ -52,16 +60,50 @@
     gap: 20px;
   }
 
-  .buttons {
+  .button1 {
     display: flex;
-    justify-content: space-between;
-    align-items: end;
-    padding: 0;
-    gap: 80px;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 13px 25px;
+    position: absolute;
+    width: 110px;
+    height: 46px;
+    left: 948px;
+    top: 27px;
+    border: 1px solid #BCD0E5;
+    background: #ffffff;
+    line-height: 0.9;
+    border-radius: 4px;
+    cursor: pointer;
+
   }
 
-  .buttons {
-    border: 1px solid #BCD0E5;
+  .button1:hover {
+    background: #BCD0E5;
+    color: #ffffff;
+  }
+
+  .button2 {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 1px 25px;
+    position: absolute;
+    width: 110px;
+    height: 46px;
+    line-height: 0.2;
+    left: 1090px;
+    top: 27px;
+    background: #FF9900;
+    color: #ffffff;
     border-radius: 4px;
-    text-decoration: none;
+    cursor: pointer;
+
+  }
+
+  .button2:hover {
+    background: #ffffff;
+    color: #FF9900;
   }
