@@ -1,13 +1,17 @@
 
+
 @import url('https://fonts.cdnfonts.com/css/lucida-sans');
+
+
 @font-face {
-	font-family: 'Lucida Sans Unicode', sans-serif; ;
+	font-family: 'Lucida Sans Unicode', sans-serif; 
 	src: url('https://fonts.cdnfonts.com/css/lucida-sans');
 }
 
 * {
 	transition: all .1s ease-in;
 }
+
 body {
 	box-sizing: border-box;
 	font-family: 'Lucida Sans Unicode';
@@ -29,6 +33,7 @@ body {
 }
 
 main {
+	box-sizing: border-box;
 	background-color: #fff;
 	border: 30px solid #2c81ac;
 }
@@ -36,7 +41,7 @@ main {
 
 header h1 {
 	font-size: 21px;
-	margin: 10px 0 40px;
+	margin: 10px 0 10px;
 }
 
 .fz-27 {
